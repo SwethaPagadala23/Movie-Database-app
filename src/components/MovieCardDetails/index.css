@@ -1,0 +1,44 @@
+.movie-card-image {
+  width: 100%;
+  max-width: 230px;
+  height: 280px;
+  align-self: center;
+  text-align: center;
+}
+
+.movie-title {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #032541;
+  text-align: center;
+}
+
+.movie-rating {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #83cca6;
+  text-align: center;
+}
+.movie-card {
+  list-style-type: none;
+  margin: 10px;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+}

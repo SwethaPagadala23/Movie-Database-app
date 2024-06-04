@@ -1,0 +1,62 @@
+.movie-list-container{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    gap:1rem;
+    list-style:none;
+    padding:0px;
+    margin-bottom:0px;
+
+}
+.section-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#2e2e2e;
+    min-height:80vh;
+}
+.route-heading{
+    font-family:"Montserrat",sens-serif;
+    font-size:2rem;
+    color:;
+    font-weight:bold;
+    margin:0px;
+}
+.popular-container{
+    padding:2em;
+}
+.loader-style{
+    position:Absolute;
+    top:50%;
+    left:50%;
+    right:50%;
+    bottom:50%;
+    background-color:#2c2c2c
+}
+.page-numbers{
+    font-family:"Montserrat", "sans-serif";
+    font-size:1rem;
+    color:;
+}
+.next-page{
+    border-style:none;
+    background-color:#8b1c15;
+    color:;
+    margin-left:20px;
+}
+.loader-container{
+    height:100vh;
+}
+@media screen and (max-width:1200px){
+    .movie-list-container{
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+    }
+    .route-heading{
+        text-align:Center;
+    }
+    .page-numbers{
+        text-align:center;
+    }
+}
